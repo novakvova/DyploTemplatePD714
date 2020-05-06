@@ -5,7 +5,7 @@ class PostItem extends Component {
     render() { 
         const {post}=this.props;
         return ( 
-            <div className="col-md-5">
+            <div className="col-md-6">
                 <div className="card">
                     <img className="card-img-top" src={post.image} alt="Card image cap" />
                     <div className="card-body">
